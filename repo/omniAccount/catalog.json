@@ -1,0 +1,43 @@
+{
+  "format": "1",
+  "packages": [
+    {
+      "name": "omniAccount",
+      "namespace": "OmniEshops",
+      "format": "1",
+      "version": "1.0.0",
+      "creator": "OmniEshops",
+      "summary": "User account manager for OmniEshops network",
+      "detailedDescription": "This package allow developers, merchants and customers edit and configure account related settings in to OmniEshops Network. Include classic and modern support.",
+      "type": "code",
+      "signatures": [
+        {
+          "name": "OmniEshops",
+          "uuid": "d228d144-a80f-411c-b925-e0685739ca92",
+          "created": "2018-03-09T13:42:09Z",
+          "algorithm": "SHA1withRSA",
+          "nonce": "zvOmS5cjTgg\u003d",
+          "signature": "J3/g0QKlBBfskRiFnlfsKo7gIijAXy4Z0dEFuwBL/yDrm0VM/QcXDnxp/HBqhID8a30za9SnQOXu643bRhLs8M2Jt7MFevwerdotwhnSvGJUidTIM62P+YF2lznRjcg7Tig7B2mvO3jMzEmea3VkXQjuXwLuzWOH7Tsm69VQAWfDijvmLb9MkdNYFiEjZcfFUDBStTUHPJYNsImqFezleq4aoHYJJP7OdZSu1NXl4Fg3pDsjvkHEYZg5niFlGmRm9YWdAEGR0hArovSHlFgBvAcKOhuWjcwXRzz+hT5JWwbQNQv6qgHG5kqw+Wk3QDwGxYLg88kVMjWu6fULl3bIxA\u003d\u003d"
+        }
+      ],
+      "slicer": {
+        "js": [
+          {
+            "path": "${package.dir}/sass/example/custom.js",
+            "isWidgetManifest": true
+          }
+        ]
+      },
+      "builds": {
+        "classic": {
+          "toolkit": "classic",
+          "theme": "theme-triton"
+        },
+        "modern": {
+          "toolkit": "modern",
+          "theme": "theme-material"
+        }
+      }
+    }
+  ]
+}
